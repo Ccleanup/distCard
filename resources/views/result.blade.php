@@ -17,12 +17,12 @@
     Output:
     
     
-    {{ $noPlayer }} {{ $noCard }} {{ number_format($noCard, 0) }}
+    <!-- {{ $noPlayer }} {{ $noCard }} {{ number_format($noCard, 0) }}
     <br>
 
     @foreach ($shuffled as $val)
         {{ $val->id }}:{{ $val->spade }}-{{ $val->number }}
-    @endforeach
+    @endforeach -->
 
     <br>
 
